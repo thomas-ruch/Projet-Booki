@@ -103,7 +103,6 @@ nav li:hover {
 /****** Recherche ******/
 .search {
     margin-top: 30px;
-    margin-bottom: 30px;
 }
 
 .search-form {
@@ -205,6 +204,7 @@ nav li:hover {
     background-color: var(--main-bg-color);
     border-radius: 20px;
     padding: 30px;
+    margin-top: 30px;
     box-sizing: border-box;
 }
 
@@ -299,8 +299,50 @@ nav li:hover {
     margin-bottom: 5px;
 }
 
+/****** Activités ***********/
+.activites {
+    padding: 30px;
+    margin-top: 30px;
+}
 
+.card-act {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    background-color: white;
+    border-radius: 20px;
+    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.2));
+    margin-top: 33px;
+}
 
+.card-act img {
+    height: 380px;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.card-act h3 {
+    margin: 20px;
+}
+
+.activites-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.activites-cards a {
+    width: 23%;
+}
+
+/****** Footer ***********/
+footer {
+    margin-top: 33px;
+    height: 100px;
+    background-color: #d9d9d9;
+}
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
