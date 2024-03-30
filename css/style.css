@@ -227,7 +227,7 @@ nav li:hover {
 }
 
 /****** Hebergements ******/
-.hebergements {
+#hebergements {
     width: 65%;
 }
 
@@ -325,7 +325,7 @@ nav li:hover {
 }
 
 /****** Activités ***********/
-.activites {
+#activites {
     padding: 30px;
     margin-top: 30px;
 }
@@ -404,7 +404,7 @@ footer {
         flex-direction: column;
     }
 
-    .hebergements {
+    #hebergements {
         width: 100%;
     }
 
@@ -502,7 +502,7 @@ footer {
         margin-top: 15px;
     }
 
-    .hebergements-and-populaires .hebergements {
+    .hebergements-and-populaires #hebergements {
         background-color: white;
     }
 
@@ -524,7 +524,7 @@ footer {
         margin-top: 15px;
     }
     
-    .activites {
+    #activites {
         margin-top: 15px;
     }
 
