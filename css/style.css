@@ -185,7 +185,7 @@ nav li:hover {
     flex-direction: row;
     align-items: center;
     padding: 10px;
-    border: 2px var(--filter-bg-color) solid;
+    border: 2px #d9d9d9 solid;
     border-radius: 20px;
     margin-right: 15px;
 }
@@ -460,7 +460,6 @@ footer {
     }
     
     nav li:hover {
-        box-sizing: content-box;
         border-top: none;
         border-bottom: 2px solid var(--main-color);
         color: var(--main-color);
@@ -502,7 +501,7 @@ footer {
         margin-top: 15px;
     }
 
-    .hebergements-and-populaires #hebergements {
+    #hebergements {
         background-color: white;
     }
 
