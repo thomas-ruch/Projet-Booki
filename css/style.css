@@ -295,6 +295,10 @@ nav li:hover {
     display: flex;
 }
 
+.populaires-cards a {
+    height: 100%;
+}
+
 .populaires-cards img {
     width: 33%;
     height: 136px;
@@ -487,7 +491,7 @@ footer {
     }
 
     .filter {
-        width: 37%;
+        width: 40%;
         margin-top: 15px;
         overflow: hidden;
     }
