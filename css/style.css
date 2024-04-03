@@ -163,6 +163,10 @@ nav li:hover {
     color: white;
 }
 
+.location-icon {
+    color: black;
+}
+
 .search-filters {
     display: flex;
     flex-direction: row;
